@@ -1,9 +1,9 @@
 '''
 Lab 6
-Authors: Kaitlyn Tran
+Authors: Kaitlyn Tran and Abby Zheng
 Class: COP3502C
 Section: 12309
-Description: A password encode that shifts each digit up by 3.
+Description: A password encoder that shifts each digit up by 3.
 '''
 
 
