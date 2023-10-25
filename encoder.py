@@ -16,6 +16,13 @@ def encode(decoded):
     return encoder
 
 
+def decode(encoded):
+    # iterates through each digit in encoded password and subtracts 3
+    decoded_password = ""
+    for char in encoded:
+        decoded_password += str(int(char) - 3)
+    return decoded_password
+
 if __name__ == '__main__':
     while True:
         # Menu
